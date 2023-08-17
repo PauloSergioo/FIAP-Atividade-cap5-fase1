@@ -1,0 +1,13 @@
+
+:root {
+    ---color-bg-primary: ;
+
+  }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Tahoma, sans-serif;
+  }
+
