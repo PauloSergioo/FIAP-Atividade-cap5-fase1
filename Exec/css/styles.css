@@ -223,6 +223,74 @@ header {
 .card-services {
     display: flex;
     flex-direction: column;
-    border: 1px solid #1b8e99;
+    border: 1px solid #660000;
+    border-bottom: 7px solid #660000;
     width: 300px;
+    cursor: pointer;
+}
+
+.card-services h5{
+    font-size: 17px;
+    color: #660000;
+    font-family: Tahoma;
+    text-transform: uppercase;
+    margin: 10px 10px 20px 10px;
+}
+
+.card-services p{
+    font-size: 13px;
+    color: #660000;
+    font-family: Tahoma;
+    margin: 10px 10px 20px 10px;
+}
+
+.card-services:hover {
+    color: #1b8e99;
+    border: 1px solid #1b8e99;
+    border-bottom: 7px solid #1b8e99;
+    .service-title {
+        color: #1b8e99;
+    }
+    .service-desc {
+        color: #1b8e99;
+    }
+}
+
+.drones-container {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 170px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 122px;
+    border-bottom: 26px solid #660000;
+    background-color: #1b8e99;
+    margin-bottom: 50px;
+}
+
+.footer-container p {
+    font-size: 14px;
+    color: #fff;
+    font-family: Tahoma;
+}
+
+.logo-footer {
+   width: 100px;
+   height: 30px;
+   margin: 20px;
+}
+
+.teacher-container {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px;
+}
+
+.teacher-container h6 {
+    margin: 0 0 13px 0;
+    color: #fff;
 }
